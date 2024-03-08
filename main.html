@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Properties Checker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Properties Checker</h1>
+
+        <!-- Prime Number Checker -->
+        <div>
+            <h2>Prime Number Checker</h2>
+            <label for="primeInput">Enter a number:</label>
+            <input type="number" id="primeInput" placeholder="Enter a number">
+            <button onclick="checkPrime()">Check Prime</button>
+            <p id="primeResult"></p>
+        </div>
+
+        <!-- GCD Calculator -->
+        <div>
+            <h2>GCD Calculator</h2>
+            <label for="gcdInput1">Enter first number:</label>
+            <input type="number" id="gcdInput1" placeholder="Enter a number">
+            <label for="gcdInput2">Enter second number:</label>
+            <input type="number" id="gcdInput2" placeholder="Enter a number">
+            <button onclick="calculateGCD()">Calculate GCD</button>
+            <p id="gcdResult"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
